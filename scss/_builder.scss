@@ -9,7 +9,7 @@ body {
 	border: 1px solid rgb(150, 255, 150);
 	background-color: rgb(210, 255, 210);
 	min-height: 100vh;
-
+	padding: 1em;
 	/*
 		// move up down section via theme editor
 		&-grid {
@@ -21,11 +21,6 @@ body {
 			}
 		}
 	*/
-}
-
-.page * {
-	margin: .5em .5em;
-	padding: .5em .5em;
 }
 
 .container {

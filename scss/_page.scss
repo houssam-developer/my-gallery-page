@@ -11,16 +11,22 @@
 	align-items: center;
 	gap: .5em;
 
-	&__heading {
-
+	font-family: 'Montserrat', sans-serif;
+	color: #4E5150;
+	
+	&__heading, &__description {
+		font-size: .9rem;
+		font-weight: 600;
 	}
 
 	&__description {
-		
+		font-size: .6rem;
+		color: #a9a9a9;
 	}
 	
 	&__img {
-		max-width: 30%;
+		width: 30%;
+		max-width: 220px;
 		height: auto;
 		object-fit: cover;
 		border-radius: 13px;
@@ -28,7 +34,15 @@
 
 	&__social-media-details {
 		display: flex;
-		gap: .3em;
+		gap: 1em;
+
+		&__li {
+			background-color: #e5e5e5;
+			padding: 1em 2em;
+			font-size: .7rem;
+			text-align: center;
+			border-radius: 10px;
+		}
 	}
 }
 
@@ -59,4 +73,15 @@
 		&-e { grid-area: e; }
 		&-f { grid-area: f; }
 	}
+}
+
+
+
+footer {
+	text-align: center; 
+	padding: 1em;
+	color: rgb(116, 116, 116);
+	
+	& p { font-weight: 400; }
+	& span {	font-weight: 700; }
 }
